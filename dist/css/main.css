@@ -290,6 +290,18 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-height: 550px) {
+  .home {
+    padding-top: 15vh;
+  }
+  .contact {
+    padding-top: 15vh;
+  }
+  main .home .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;

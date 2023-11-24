@@ -1,3 +1,18 @@
+@include media-sm {
+  .home {
+    padding-top: 15vh;
+  }
+
+  .contact {
+    padding-top: 15vh;
+  }
+
+  main .home .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
+
 @include media-md {
   .menu-btn {
     visibility: hidden;
